@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(warmuptest.mp4)
+cap = cv2.VideoCapture('warmuptest.mp4')
 
 while(True):
     # Capture frame-by-frame
@@ -16,5 +16,5 @@ while(True):
         break
 
 # When everything done, release the capture
-cap.release()
-cv2.destroyAllWindows()
+#cap.release()
+#cv2.destroyAllWindows()
